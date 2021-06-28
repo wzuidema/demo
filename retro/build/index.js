@@ -48,10 +48,6 @@ async function main() {
 
   const mimeExtensions = await Promise.all(mimeExtensionsMods);
 
-  // create a RetroLab frontend
-  const { RetroApp } = require('@retrolab/application');
-  const app = new RetroApp({ serviceManager, mimeExtensions });
-
   let mods = [
     // @jupyterlite plugins
     require('@jupyterlite/application-extension'),
@@ -60,7 +56,10 @@ async function main() {
     // @retrolab plugins
     // do not enable the document opener from RetroLab
     require('@retrolab/application-extension').default.filter(
-      ({ id }) => id !== '@retrolab/application-extension:opener'
+      ({ id }) => ![
+        '@retrolab/application-extension:logo',
+        '@retrolab/application-extension:opener'
+      ].includes(id)
     ),
     require('@retrolab/help-extension'),
     require('@retrolab/notebook-extension'),
@@ -109,7 +108,6 @@ async function main() {
         require('@jupyterlab/filebrowser-extension').default.filter(({ id }) =>
           [
             '@jupyterlab/filebrowser-extension:browser',
-            '@jupyterlab/filebrowser-extension:download',
             '@jupyterlab/filebrowser-extension:factory',
             '@jupyterlab/filebrowser-extension:file-upload-status',
             '@jupyterlab/filebrowser-extension:open-with',
@@ -209,6 +207,18 @@ async function main() {
     }
   }
 
+  // Add the federated mime extensions.
+  const federatedMimeExtensions = await Promise.allSettled(federatedMimeExtensionPromises);
+  federatedMimeExtensions.forEach(p => {
+    if (p.status === "fulfilled") {
+      for (let plugin of activePlugins(p.value)) {
+        mimeExtensions.push(plugin);
+      }
+    } else {
+      console.error(p.reason);
+    }
+  });
+
   // Add the federated extensions.
   const federatedExtensions = await Promise.allSettled(federatedExtensionPromises);
   federatedExtensions.forEach(p => {
@@ -221,13 +231,19 @@ async function main() {
     }
   });
 
+  // create a RetroLab frontend
+  const { RetroApp } = require('@retrolab/application');
+  const app = new RetroApp({ serviceManager, mimeExtensions });
+
+  app.name = 'RetroLite';
+
   app.registerPluginModules(mods);
 
   console.log('Starting app');
   await app.start();
-  console.log('JupyterLite Retro started, waiting for restore');
+  console.log(`${app.name} started, waiting for restore`);
   await app.restored;
-  console.log('JupyterLite Retro restored');
+  console.log(`${app.name} restored`);
 }
 
 main();

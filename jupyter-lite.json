@@ -1,10 +1,34 @@
 {
-  "jupyter-lite-schema-version": 0,
   "jupyter-config-data": {
-    "baseUrl": "./",
     "appUrl": "./lab",
+    "baseUrl": "./",
     "faviconUrl": "./lab/favicon.ico",
     "federated_extensions": [
+      {
+        "extension": "./extension",
+        "load": "static/remoteEntry.ca1efc27dc965162ca86.js",
+        "name": "@jupyter-widgets/jupyterlab-manager"
+      },
+      {
+        "extension": "./extension",
+        "load": "static/remoteEntry.89879fac6ceba3caa16b.js",
+        "name": "@telamonian/theme-darcula"
+      },
+      {
+        "extension": "./extension",
+        "load": "static/remoteEntry.0833372f8237ff5028c7.js",
+        "name": "bqplot"
+      },
+      {
+        "extension": "./extension",
+        "load": "static/remoteEntry.5459894d80c1201f22ae.js",
+        "name": "ipycanvas"
+      },
+      {
+        "extension": "./extension",
+        "load": "static/remoteEntry.8c5efb3516d04e6a5bb7.js",
+        "name": "jupyter-leaflet"
+      },
       {
         "extension": "./extension",
         "load": "static/remoteEntry.8f896d6ad92823566c46.js",
@@ -18,5 +42,6 @@
     "mathjaxConfig": "TeX-AMS_CHTML-full,Safe",
     "settingsUrl": "./lab/build/schemas",
     "themesUrl": "./lab/build/themes"
-  }
+  },
+  "jupyter-lite-schema-version": 0
 }
