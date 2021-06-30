@@ -16,6 +16,11 @@
       },
       {
         "extension": "./extension",
+        "load": "static/remoteEntry.145e469029155b53b350.js",
+        "name": "@timkpaine/jupyterlab_miami_nights"
+      },
+      {
+        "extension": "./extension",
         "load": "static/remoteEntry.0833372f8237ff5028c7.js",
         "name": "bqplot"
       },
