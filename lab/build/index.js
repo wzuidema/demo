@@ -437,6 +437,16 @@ async function main() {
       console.error(e);
     }
   }
+  if (!federatedExtensionNames.has('@jupyterlab/translation-extension')) {
+    try {
+      let ext = require('@jupyterlab/translation-extension');
+      for (let plugin of activePlugins(ext)) {
+        pluginsToRegister.push(plugin);
+      }
+    } catch (e) {
+      console.error(e);
+    }
+  }
   if (!federatedExtensionNames.has('@jupyterlab/ui-components-extension')) {
     try {
       let ext = require('@jupyterlab/ui-components-extension');

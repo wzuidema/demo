@@ -14,6 +14,7 @@ import '@jupyterlab/mathjax2-extension/style/index.js';
 import '@jupyterlab/notebook-extension/style/index.js';
 import '@jupyterlab/rendermime-extension/style/index.js';
 import '@jupyterlab/tooltip-extension/style/index.js';
+import '@jupyterlab/translation-extension/style/index.js';
 import '@jupyterlab/vega5-extension/style/index.js';
 import '@jupyterlite/application-extension/style/index.js';
 import '@jupyterlite/iframe-extension/style/index.js';
