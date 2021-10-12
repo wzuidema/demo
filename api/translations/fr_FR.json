@@ -26,6 +26,56 @@
         "Si d\u00e9fini \u00e0 true, chaque notebook et console aura automatiquement un client dask pour le cluster actif inject\u00e9 dans le noyau sous le nom de 'client'"
       ]
     },
+    "jupyter_archive": {
+      "": {
+        "domain": "jupyter_archive",
+        "language": "fr-FR",
+        "plural_forms": "nplurals=2; plural=(n > 1);",
+        "version": "jupyterlab"
+      },
+      "%1 Archive": [
+        "Archive %1"
+      ],
+      "Download As": [
+        "T\u00e9l\u00e9charger en tant que"
+      ],
+      "Download Current Folder As": [
+        "T\u00e9l\u00e9charger le dossier actuel en tant que"
+      ],
+      "Download Current Folder as an Archive": [
+        "T\u00e9l\u00e9charger le dossier actuel en tant qu'archive"
+      ],
+      "Download as an Archive": [
+        "T\u00e9l\u00e9charger en tant qu'archive"
+      ],
+      "Extract Archive": [
+        "Extraire l'archive"
+      ],
+      "schema\u0004Archive": [
+        "Archiver"
+      ],
+      "schema\u0004Archive handler options.": [
+        "Options du gestionnaire d'archives."
+      ],
+      "settings\u0004Archive format": [
+        "Format de l'archive"
+      ],
+      "settings\u0004Archive format for compressing folder; one of [null (submenu), 'zip', 'tgz', 'tar.gz', 'tbz', 'tbz2', 'tar.bz', 'tar.bz2', 'txz', 'tar.xz']": [
+        "Format d'archive pour la compression des dossiers; un parmi [null (sous-menu), 'zip', 'tgz', 'tar.gz', 'tbz', 'tbz2', 'tar.bz', 'tar.bz2', 'txz', 'tar.xz']"
+      ],
+      "settings\u0004Download Hidden Files": [
+        "T\u00e9l\u00e9charger les fichiers cach\u00e9s"
+      ],
+      "settings\u0004Follow Symlinks": [
+        "Suivre les liens symboliques"
+      ],
+      "settings\u0004Whether or not to add hidden files to the archive when downloading; one of ['true', 'false']": [
+        "S'il faut ou non ajouter les fichiers cach\u00e9s \u00e0 l'archive lors du t\u00e9l\u00e9chargement ; un parmi ['true', 'false']"
+      ],
+      "settings\u0004Whether or not to resolve symlinks and add resulting files to the archive; one of ['true', 'false']": [
+        "S'il faut ou non suivre les liens symboliques et ajouter des fichiers r\u00e9sultants \u00e0 l'archive; un parmi ['true', 'false']"
+      ]
+    },
     "jupyterlab": {
       "": {
         "domain": "jupyterlab",
@@ -156,7 +206,7 @@
         "Toutes les erreurs seront list\u00e9es ici"
       ],
       "Are you sure that you want to run arbitrary Javascript within your JupyterLab session?": [
-        "\u00cates-vous s\u00fbr de vouloir ex\u00e9cuter du Javascript dans votre session JupyterLab?"
+        "\u00cates-vous s\u00fbr de vouloir ex\u00e9cuter du JavaScript dans votre session JupyterLab?"
       ],
       "Are you sure you want to close \"%1\"?": [
         "\u00cates-vous s\u00fbr de vouloir fermer \"%1\"?"
@@ -183,6 +233,9 @@
       ],
       "Are you sure you want to permanently shut down all running terminals?": [
         "\u00cates-vous s\u00fbr de vouloir \u00e9teindre d\u00e9finitivement tous les terminaux en cours d'ex\u00e9cution ?"
+      ],
+      "Are you sure you want to refresh?": [
+        "\u00cates-vous s\u00fbr(e) de vouloir actualiser ?"
       ],
       "Are you sure you want to reload the %1 from the disk?": [
         "\u00cates-vous s\u00fbr de vouloir recharger le %1 depuis le disque ?"
@@ -239,7 +292,7 @@
         "Fichier CSV"
       ],
       "Callstack": [
-        "Callstack"
+        "Pile des appels"
       ],
       "Cancel": [
         "Annuler"
@@ -550,6 +603,9 @@
       "Details:": [
         "D\u00e9tails:"
       ],
+      "Did not run selected cell because there is a cell waiting on input! Submit your input and try again.": [
+        "La cellule s\u00e9lectionn\u00e9e n'a pas \u00e9t\u00e9 ex\u00e9cut\u00e9e car il y a une cellule en attente de saisie! Soumettez votre entr\u00e9e et r\u00e9essayez."
+      ],
       "Directory": [
         "Dossier"
       ],
@@ -778,6 +834,9 @@
       "For more information, see": [
         "Pour plus d'informations, voir"
       ],
+      "For more information, see the <a href=\"https://jupyter-server.readthedocs.io/en/stable/operators/security.html\">%1</a>": [
+        "Pour plus d'informations, voir <a href=\"https://jupyter-server.readthedocs.io/en/stable/operators/security.html\">%1</a>"
+      ],
       "Fragment": [
         "Fragment"
       ],
@@ -906,6 +965,9 @@
       ],
       "Jupyter Reference": [
         "R\u00e9f\u00e9rence Jupyter"
+      ],
+      "Jupyter security documentation": [
+        "Documentation sur la s\u00e9curit\u00e9 de Jupyter"
       ],
       "JupyterLab Dark": [
         "JupyterLab Sombre"
@@ -1277,7 +1339,7 @@
         "Autre"
       ],
       "Overrides for the default viewers for file types.\nSpecify a mapping from file type name to document viewer name, for example:\n\ndefaultViewers: {\n  markdown: \"Markdown Preview\"\n}\n\nIf you specify non-existent file types or viewers, or if a viewer cannot\nopen a given file type, the override will not function.\n\nAvailable viewers:\n%1\n\nAvailable file types:\n%2": [
-        "Remplace les afficheurs par d\u00e9faut pour les types de fichiers.\nSp\u00e9cifiez un mappage du nom du type de fichier au nom de la visionneuse du document, par exemple :\n\ndefaultViewers: {\n  markdown: \"Markdown Preview\"\n}\n\nSi vous sp\u00e9cifiez des types de fichiers ou des visualisateurs inexistants, ou si une visionneuse ne peut pas\nouvrir un type de fichier donn\u00e9, la substitution ne fonctionnera pas.\n\nVisualisateurs disponibles :\n%1\n\nTypes de fichiers disponibles :\n%2"
+        "Remplace les afficheurs par d\u00e9faut pour les types de fichiers.\nSp\u00e9cifiez une correspondance du nom du type de fichier au nom de la visionneuse du document, par exemple :\n\ndefaultViewers: {\n  markdown: \"Markdown Preview\"\n}\n\nSi vous sp\u00e9cifiez des types de fichiers ou des visionneuses inexistants, ou si une visionneuse ne peut pas\nouvrir un type de fichier donn\u00e9, la substitution ne fonctionnera pas.\n\nVisionneuses disponibles :\n%1\n\nTypes de fichiers disponibles :\n%2"
       ],
       "Overwrite": [
         "\u00c9craser"
@@ -1613,7 +1675,7 @@
         "\u00c9chec de l'enregistrement"
       ],
       "Save File As..": [
-        "Enregistrer le fichier sous..."
+        "Enregistrer le fichier sous.."
       ],
       "Save User Settings": [
         "Enregistrer les param\u00e8tres de l'utilisateur"
@@ -1642,6 +1704,18 @@
       "Save your work": [
         "Enregistrer votre travail"
       ],
+      "Saving %1": [
+        "Enregistrement %1"
+      ],
+      "Saving completed": [
+        "Enregistrement effectu\u00e9"
+      ],
+      "Saving failed": [
+        "\u00c9chec de la sauvegarde"
+      ],
+      "Saving started": [
+        "Sauvegarde d\u00e9marr\u00e9e"
+      ],
       "Scope": [
         "P\u00e9rim\u00e8tre d\u2019application"
       ],
@@ -1655,7 +1729,7 @@
         "R\u00e9sultats de la recherche"
       ],
       "Search Selected Cell(s)": [
-        "Rechercher les cellules s\u00e9lectionn\u00e9es"
+        "Rechercher la(les) cellule(s) s\u00e9lectionn\u00e9e(s)"
       ],
       "Search on File Names": [
         "Rechercher dans les noms de fichiers"
@@ -1965,6 +2039,9 @@
       "This notebook has been converted from an newer notebook format (v%1)\nto the current notebook format (v%2).\nThe next time you save this notebook, the current notebook format (v%2) will be used.\nSome features of the original notebook may not be available.' To preserve the original format version,\nclose the notebook without saving it.": [
         "Ce notebook a \u00e9t\u00e9 converti d'un format de notebook plus r\u00e9cent (v%1)\nque le format actuel (v%2).\nLa prochaine fois que vous sauverez ce notebook, le format actuel du notebook (v%2) sera utilis\u00e9.\n'Certaines fonctionnalit\u00e9s du notebook original peuvent ne pas \u00eatre disponibles.' Pour pr\u00e9server la version originale,\nfermez le notebook sans le sauvegarder."
       ],
+      "This notebook has been converted from an older notebook format (v%1)\nto the current notebook format (v%2).\nThe next time you save this notebook, the current notebook format (v%2) will be used.\n'Older versions of Jupyter may not be able to read the new format.' To preserve the original format version,\nclose the notebook without saving it.": [
+        "Ce notebook a \u00e9t\u00e9 converti d'un ancien format de notebook (v%1)\nau format actuel (v%2).\nLa prochaine fois que vous sauverez ce notebook, le format actuel du notebook (v%2) sera utilis\u00e9.\n'Anciennes versions de Jupyter peuvent ne pas \u00eatre en mesure de lire le nouveau format.' Pour pr\u00e9server la version originale,\nfermez le notebook sans le sauvegarder."
+      ],
       "This notebook has been converted from an older notebook format (v%1)\nto the current notebook format (v%2).\nThe next time you save this notebook, the current notebook format (vthis._nbformat) will be used.\n'Older versions of Jupyter may not be able to read the new format.' To preserve the original format version,\nclose the notebook without saving it.": [
         "Ce notebook a \u00e9t\u00e9 converti d'un ancien format de notebook (v%1)\nau format actuel (v%2).\nLa prochaine fois que vous sauverez ce notebook, le format actuel du notebook (vthis._nbformat) sera utilis\u00e9.\n'Anciennes versions de Jupyter peuvent ne pas \u00eatre en mesure de lire le nouveau format.' Pour pr\u00e9server la version originale,\nfermez le notebook sans le sauvegarder."
       ],
@@ -2061,6 +2138,9 @@
       "Version %1": [
         "Version : %1"
       ],
+      "Waiting on User Input": [
+        "En attente de saisie de l'utilisateur"
+      ],
       "Warning": [
         "Attention"
       ],
@@ -2155,7 +2235,7 @@
         "Ouvrir avec"
       ],
       "menu\u0004Run": [
-        "Ex\u00e9cuter"
+        "Ex\u00e9cution"
       ],
       "menu\u0004Settings": [
         "Param\u00e8tres"
@@ -2179,7 +2259,7 @@
         "Th\u00e8me de l'\u00e9diteur de texte"
       ],
       "menu\u0004View": [
-        "Afficher"
+        "Affichage"
       ],
       "notebook actions": [
         "actions du Notebook"
@@ -2583,6 +2663,9 @@
       "settings\u0004Hide Front Matter": [
         "Cacher le Pr\u00e9ambule"
       ],
+      "settings\u0004If set to true, when a header is collapsed in the ToC the corresponding section in the notebook is collapsed as well and vice versa.": [
+        "Si r\u00e9gl\u00e9 sur `true`, lorsqu'un titre est r\u00e9duit dans la table des mati\u00e8res, la section correspondante dans le notebook est r\u00e9duite et vice versa."
+      ],
       "settings\u0004If set to true, when a header is collapsed in the table of contents the corresponding section in the notebook is collapsed as well and vice versa.": [
         "Si r\u00e9gl\u00e9 sur true, lorsqu'un en-t\u00eate est r\u00e9duit dans la table des mati\u00e8res, la section correspondante dans le bloc-notes est r\u00e9duite et vice versa."
       ],
@@ -2800,7 +2883,7 @@
         "L'URI du CDN \u00e0 utiliser pour r\u00e9cup\u00e9rer toutes les donn\u00e9es du paquet"
       ],
       "settings\u0004The URI of the NPM registry to use for searching for jupyterlab extensions": [
-        "L'URI du registre NPM \u00e0 utiliser pour la recherche d'extensions jupyterlab"
+        "L'URI du registre NPM \u00e0 utiliser pour la recherche d'extensions JupyterLab"
       ],
       "settings\u0004The amount of scrollback beyond initial viewport": [
         "La quantit\u00e9 de d\u00e9filement arri\u00e8re au-del\u00e0 de la fen\u00eatre de visualisation initiale"
@@ -2931,6 +3014,9 @@
       "settings\u0004Whether to include cell output in headings": [
         "Inclure la sortie de cellule dans les en-t\u00eates"
       ],
+      "settings\u0004Whether to number first level headings": [
+        "Nombre d'en-t\u00eates de premier niveau ou non"
+      ],
       "settings\u0004Whether to number first-level headings": [
         "Nombre d'en-t\u00eates de premier niveau ou non"
       ],
@@ -2951,6 +3037,12 @@
       ],
       "settings\u0004font-size": [
         "taille de police"
+      ],
+      "settings\u0004syncCollapseState": [
+        "syncCollapseState"
+      ],
+      "showErrorMessage": [
+        "showErrorMessage"
       ],
       "showErrorMessage\u0004\"%1\" is not a valid name for a file. Names must have nonzero length, and cannot include \"/\", \"\\\", or \":\"": [
         "\"%1\" n'est pas un nom valide pour un fichier. Les noms doivent avoir une longueur non nulle, et ne peuvent pas inclure \"/\", \"\\\", ou \":\""
@@ -3047,9 +3139,6 @@
       "Are you sure you want to ignore all %1 files within this git repository?": [
         "\u00cates-vous s\u00fbr de vouloir ignorer tous les fichiers %1 de ce d\u00e9p\u00f4t Git?"
       ],
-      "Are you sure you want to mark this file as resolved with merge conflicts?": [
-        "\u00cates-vous s\u00fbr de vouloir marquer ce fichier comme r\u00e9solu avec des conflits de fusion ?"
-      ],
       "Are you sure you want to permanently delete the branch ": [
         "\u00cates-vous s\u00fbr(e) de vouloir supprimer d\u00e9finitivement cette branche  "
       ],
@@ -3070,9 +3159,6 @@
       ],
       "CLONE": [
         "CLONER"
-      ],
-      "CURRENT": [
-        "ACTUEL"
       ],
       "Cancel": [
         "Annuler"
@@ -3124,9 +3210,6 @@
       ],
       "Committing changes...": [
         "Validation des modifications..."
-      ],
-      "Conflicted": [
-        "En conflit"
       ],
       "Create Branch": [
         "Cr\u00e9er une branche"
@@ -3219,7 +3302,7 @@
         "D\u00e9sactiv\u00e9 : Aucun r\u00e9sum\u00e9 du message de commit"
       ],
       "Disabled: No files are staged for commit": [
-        "D\u00e9sactiv\u00e9 : Aucun fichier n'est pret pour le commit"
+        "D\u00e9sactiv\u00e9 : Aucun fichier n'est pr\u00eat pour le commit"
       ],
       "Discard": [
         "Abandonner"
@@ -3368,9 +3451,6 @@
       "History": [
         "Historique"
       ],
-      "INCOMING": [
-        "EN COURS"
-      ],
       "Ignore": [
         "Ignorer"
       ],
@@ -3405,12 +3485,6 @@
       ],
       "Manage branches and tags": [
         "G\u00e9rer les branches et les tags"
-      ],
-      "Mark as resolved": [
-        "Marquer comme r\u00e9solue"
-      ],
-      "Mark file as resolved": [
-        "Marquer le fichier comme r\u00e9solu"
       ],
       "Name": [
         "Nom"
@@ -3496,9 +3570,6 @@
       "Pushing...": [
         "Poussage en cours..."
       ],
-      "RESULT": [
-        "R\u00c9SULTAT"
-      ],
       "Refresh": [
         "Actualiser"
       ],
@@ -3516,9 +3587,6 @@
       ],
       "Reset Changes": [
         "R\u00e9initialiser les changements"
-      ],
-      "Resolve with conflicts": [
-        "R\u00e9soudre avec conflits"
       ],
       "Revert '%1'": [
         "Revenir \u00e0 '%1'"
@@ -3740,7 +3808,7 @@
         "Git"
       ],
       "schema\u0004jupyterlab-git settings.": [
-        "param\u00e8tres jupyterlab-git."
+        "Param\u00e8tres de jupyterlab-git."
       ],
       "settings\u0004Cancel pull merge conflict": [
         "Annuler le conflit de fusion de pull"
@@ -3762,6 +3830,12 @@
       ],
       "settings\u0004History count": [
         "Nombre d'\u00e9l\u00e9ments de l'historique"
+      ],
+      "settings\u0004If true, double clicking a file in the list of changed files will open a diff.": [
+        "Si vrai, un double clic sur un fichier dans la liste des fichiers modifi\u00e9s ouvrira un diff."
+      ],
+      "settings\u0004If true, doubling clicking a file in the list of changed files will open a diff.": [
+        "Si `true`, un double clic sur un fichier dans la liste des fichiers modifi\u00e9s ouvrira un diff."
       ],
       "settings\u0004If true, use a simplified concept of staging. Only files with changes are shown (instead of showing staged/changed/untracked), and all files with changes will be automatically staged": [
         "Si true, utilise un concept simplifi\u00e9 d'indexation. Seuls les fichiers avec des modifications sont affich\u00e9s (au lieu d'afficher les fichiers index\u00e9s/modifi\u00e9s/non suivis), et tous les fichiers avec des modifications seront automatiquement index\u00e9s"
@@ -3887,6 +3961,9 @@
       ],
       "Skipped non-installed server(s): {}": [
         "Serveur(s) non install\u00e9(s) ignor\u00e9(s) : {}"
+      ],
+      "Skipping non-installed server: `{}`": [
+        "Ignorer les serveur(s) non install\u00e9(s) : `{}`"
       ],
       "Syntax highlighting": [
         "Coloration syntaxique"
@@ -4014,7 +4091,7 @@
         "Si un \u00e9diteur de code inclut un fragment de code dans un autre langage (par exemple une magie %%markdown dans IPython) avec un extracteur de code \u00e9tranger appropri\u00e9 d\u00e9fini, et l'extension de ce code (couverture de l'\u00e9diteur) passe le seuil, la coloration syntaxique (par exemple, le mode) va changer pour fournir la mise en \u00e9vidence de la langue du code \u00e9tranger."
       ],
       "settings\u0004In case of ties when sorting completions, should the kernel completions receive higher priority than the language server completions?": [
-        "En cas d'egalite lorsque le tri se termine, les compl\u00e9tions du noyau devraient-elles recevoir une priorit\u00e9 plus \u00e9lev\u00e9e que celle du serveur de langue ?"
+        "En cas d'\u00e9galit\u00e9 lorsque le tri se termine, les compl\u00e9tions du noyau devraient-elles recevoir une priorit\u00e9 plus \u00e9lev\u00e9e que celle du serveur de langue ?"
       ],
       "settings\u0004Include perfect matches": [
         "Inclure les correspondances parfaites"
@@ -4053,7 +4130,7 @@
         "Mappage des types de noyaux personnalis\u00e9s \u00e0 des noms de type de compl\u00e9tion valides"
       ],
       "settings\u0004Mapping used for icon selection. The kernel types (keys) are case-insensitive. Accepted values are the names of CompletionItemKind and 'Kernel' literal. The defaults aim to provide good initial experience for Julia, Python and R kernels.": [
-        "Mappage utilis\u00e9 pour la s\u00e9lection d'ic\u00f4nes. Les types de noyaux (cl\u00e9s) sont insensibles \u00e0 la casse. Les valeurs accept\u00e9es sont les noms de CompletionItemKind et de Kernel litt\u00e9ral. Les valeurs par d\u00e9faut visent \u00e0 fournir une bonne exp\u00e9rience initiale pour les noyaux Julia, Python et R."
+        "Correspondance utilis\u00e9e pour s\u00e9lectionner les ic\u00f4nes. Les types de noyaux (cl\u00e9s) sont insensibles \u00e0 la casse. Les valeurs accept\u00e9es sont les noms de CompletionItemKind et de Kernel litt\u00e9ral. Les valeurs par d\u00e9faut visent \u00e0 fournir une bonne exp\u00e9rience initiale pour les noyaux Julia, Python et R."
       ],
       "settings\u0004Modifier key": [
         "Touche de combinaison"
@@ -4300,6 +4377,71 @@
       ],
       "settings\u0004Whether to add a Help Menu item with the label to launch the tour": [
         "Si vous souhaitez ajouter un \u00e9l\u00e9ment de menu Aide avec l'\u00e9tiquette pour lancer la visite"
+      ]
+    },
+    "retrolab": {
+      "": {
+        "domain": "retrolab",
+        "language": "fr-FR",
+        "plural_forms": "nplurals=2; plural=(n > 1);",
+        "version": "jupyterlab"
+      },
+      "About %1": [
+        "\u00c0 propos de %1"
+      ],
+      "Are you sure you want to exit RetroLab?\n\nAny unsaved changes will be lost.": [
+        "\u00cates-vous s\u00fbr de vouloir quitter RetroLab sans enregistrer ? Les modifications non sauvegard\u00e9es seront perdues."
+      ],
+      "Dismiss": [
+        "Ignorer"
+      ],
+      "Files": [
+        "Fichiers"
+      ],
+      "Help": [
+        "Aide"
+      ],
+      "Keyboard Shortcuts": [
+        "Raccourcis clavier"
+      ],
+      "Last Checkpoint: %1": [
+        "Dernier point de contr\u00f4le : %1"
+      ],
+      "Launch RetroLab File Browser": [
+        "Lancer le navigateur de fichiers RetroLab"
+      ],
+      "Name": [
+        "Nom"
+      ],
+      "New Console": [
+        "Nouvelle Console"
+      ],
+      "New Notebook": [
+        "Nouveau Notebook"
+      ],
+      "New Terminal": [
+        "Nouveau Terminal"
+      ],
+      "Open Files": [
+        "Ouvrir le navigateur de fichiers"
+      ],
+      "Open JupyterLab": [
+        "Ouvrir JupyterLab"
+      ],
+      "Open With %1": [
+        "Ouvrir avec %1"
+      ],
+      "Running": [
+        "Actifs"
+      ],
+      "Shortcut": [
+        "Raccourci"
+      ],
+      "Show Header": [
+        "Afficher l'en-t\u00eate"
+      ],
+      "Toggle Zen Mode": [
+        "Activer/d\u00e9sactiver le mode Zen"
       ]
     },
     "spellchecker": {
