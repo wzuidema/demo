@@ -2,7 +2,7 @@
   "jupyter-config-data": {
     "appName": "JupyterLite",
     "appUrl": "./lab",
-    "appVersion": "0.1.0-alpha.13",
+    "appVersion": "0.1.0-alpha.14",
     "baseUrl": "./",
     "faviconUrl": "./lab/favicon.ico",
     "federated_extensions": [
@@ -24,6 +24,13 @@
         "load": "static/remoteEntry.a6d92e11d5e8c375cfe6.js",
         "mimeExtension": "./mimeExtension",
         "name": "@jupyterlab/geojson-extension",
+        "style": "./style"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": true,
+        "load": "static/remoteEntry.4ba93726087006d2f61b.js",
+        "name": "@jupyterlite/p5-kernel-extension",
         "style": "./style"
       },
       {
