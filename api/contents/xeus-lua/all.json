@@ -2,32 +2,32 @@
   "content": [
     {
       "content": null,
-      "created": "2021-10-30T10:13:05.905608Z",
+      "created": "2021-11-03T12:33:42.816291Z",
       "format": null,
-      "last_modified": "2021-10-30T10:11:54.333406Z",
-      "mimetype": null,
-      "name": "game-of-life.ipynb",
-      "path": "xeus-lua/game-of-life.ipynb",
-      "size": 5942,
-      "type": "notebook",
-      "writable": true
-    },
-    {
-      "content": null,
-      "created": "2021-10-30T10:13:05.905608Z",
-      "format": null,
-      "last_modified": "2021-10-30T10:11:54.333406Z",
+      "last_modified": "2021-11-03T12:32:40.534799Z",
       "mimetype": null,
       "name": "widgets.ipynb",
       "path": "xeus-lua/widgets.ipynb",
       "size": 15161,
       "type": "notebook",
       "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-11-03T12:33:42.816291Z",
+      "format": null,
+      "last_modified": "2021-11-03T12:32:40.534799Z",
+      "mimetype": null,
+      "name": "game-of-life.ipynb",
+      "path": "xeus-lua/game-of-life.ipynb",
+      "size": 5942,
+      "type": "notebook",
+      "writable": true
     }
   ],
-  "created": "2021-10-30T10:13:05.905608Z",
+  "created": "2021-11-03T12:33:42.816291Z",
   "format": "json",
-  "last_modified": "2021-10-30T10:13:05.905608Z",
+  "last_modified": "2021-11-03T12:33:42.816291Z",
   "mimetype": null,
   "name": "xeus-lua",
   "path": "xeus-lua",

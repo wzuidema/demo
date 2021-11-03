@@ -1,6 +1,6 @@
 {
   "name": "jupyterlab-tour",
-  "version": "3.1.3",
+  "version": "3.1.4",
   "description": "A JupyterLab UI Tour.",
   "keywords": [
     "jupyter",
@@ -99,7 +99,7 @@
       }
     },
     "_build": {
-      "load": "static/remoteEntry.faa0ac63a9a4b6b01f44.js",
+      "load": "static/remoteEntry.5a1869d4304cb9223cfc.js",
       "extension": "./extension",
       "style": "./style"
     }

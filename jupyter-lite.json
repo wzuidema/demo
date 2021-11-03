@@ -2,7 +2,7 @@
   "jupyter-config-data": {
     "appName": "JupyterLite",
     "appUrl": "./lab",
-    "appVersion": "0.1.0-alpha.14",
+    "appVersion": "0.1.0-alpha.16",
     "baseUrl": "./",
     "faviconUrl": "./lab/favicon.ico",
     "federated_extensions": [
@@ -107,7 +107,7 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.faa0ac63a9a4b6b01f44.js",
+        "load": "static/remoteEntry.5a1869d4304cb9223cfc.js",
         "name": "jupyterlab-tour",
         "style": "./style"
       }
