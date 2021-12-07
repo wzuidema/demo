@@ -2,7 +2,7 @@
   "jupyter-config-data": {
     "appName": "JupyterLite",
     "appUrl": "./lab",
-    "appVersion": "0.1.0-alpha.16",
+    "appVersion": "0.1.0-alpha.18",
     "baseUrl": "./",
     "faviconUrl": "./lab/favicon.ico",
     "federated_extensions": [
@@ -68,13 +68,13 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.51b89f201a0af1cc6ef5.js",
+        "load": "static/remoteEntry.5ffed1c4b9b9ce1f7b00.js",
         "name": "ipycanvas"
       },
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.8c5efb3516d04e6a5bb7.js",
+        "load": "static/remoteEntry.8f5cefaa26fbae099326.js",
         "name": "jupyter-leaflet"
       },
       {
