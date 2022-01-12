@@ -2,7 +2,7 @@
   "jupyter-config-data": {
     "appName": "JupyterLite",
     "appUrl": "./lab",
-    "appVersion": "0.1.0-alpha.18",
+    "appVersion": "0.1.0-alpha.19",
     "baseUrl": "./",
     "faviconUrl": "./lab/favicon.ico",
     "federated_extensions": [
@@ -62,7 +62,7 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.490fbd2bdf754b661d13.js",
+        "load": "static/remoteEntry.12ad22690794c9ade54e.js",
         "name": "bqplot"
       },
       {
@@ -80,7 +80,7 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.e9df3e4e9577abfc8848.js",
+        "load": "static/remoteEntry.a54dd437a2f2f05813d3.js",
         "name": "jupyter-matplotlib"
       },
       {
@@ -100,7 +100,7 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.1127d9a8a11e639c274b.js",
+        "load": "static/remoteEntry.320cd506ee27637bd123.js",
         "mimeExtension": "./mimeExtension",
         "name": "jupyterlab-plotly"
       },
