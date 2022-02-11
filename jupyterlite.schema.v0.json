@@ -72,7 +72,7 @@
         },
         "fullLabextensionsUrl": {
           "description": "path to federated extensions, a folder organized by `({:org}/){package}`",
-          "default": "./lab/extensions",
+          "default": "./extensions",
           "$ref": "#/definitions/non-trailing-slash-uri"
         },
         "fullMathjaxUrl": {
@@ -98,21 +98,31 @@
         "mathjaxConfig": {
           "type": "string",
           "default": "TeX-AMS_CHTML-full,Safe",
-          "description": "a valid MathJax configuration blob, a comma-delimted list of... something"
+          "description": "a valid MathJax configuration blob, a comma-delimited list of MathJax profiles"
         },
         "fullStaticUrl": {
           "description": "relative path to built static assets",
-          "default": "./lab/build",
+          "default": "./build",
           "$ref": "#/definitions/non-trailing-slash-uri"
+        },
+        "contentsStorageName": {
+          "description": "name used to store Jupyter contents in the browser",
+          "type": "string",
+          "default": "JupyterLite Storage"
+        },
+        "settingsStorageName": {
+          "description": "name used to store Jupyter settings in the browser",
+          "type": "string",
+          "default": "JupyterLite Storage"
         },
         "settingsUrl": {
           "description": "relative path to bundled schemas",
-          "default": "./lab/build/schemas",
+          "default": "./build/schemas",
           "$ref": "#/definitions/non-trailing-slash-uri"
         },
         "themesUrl": {
           "description": "relative path to bundled themes",
-          "default": "./lab/build/themes",
+          "default": "./build/themes",
           "$ref": "#/definitions/non-trailing-slash-uri"
         },
         "disabledExtensions": {
