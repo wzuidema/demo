@@ -2,14 +2,14 @@
   "jupyter-config-data": {
     "appName": "JupyterLite",
     "appUrl": "./lab",
-    "appVersion": "0.1.0-beta.2",
+    "appVersion": "0.1.0-beta.3",
     "baseUrl": "./",
     "faviconUrl": "./lab/favicon.ico",
     "federated_extensions": [
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.f6574b55a223d23e7a04.js",
+        "load": "static/remoteEntry.3421943a0ce73f10909d.js",
         "name": "@jupyter-widgets/jupyterlab-manager"
       },
       {
