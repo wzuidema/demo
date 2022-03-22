@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-03-21T15:39:00.223493Z",
+      "created": "2022-03-22T19:10:29.757982Z",
       "format": null,
-      "last_modified": "2022-03-21T15:37:47.379114Z",
+      "last_modified": "2022-03-22T19:09:19.494335Z",
       "mimetype": null,
       "name": "gradientdescent_dynsys.ipynb",
       "path": "gradientdescent_dynsys.ipynb",
@@ -14,9 +14,9 @@
     },
     {
       "content": null,
-      "created": "2022-03-21T15:39:00.219493Z",
+      "created": "2022-03-22T19:10:29.753982Z",
       "format": null,
-      "last_modified": "2022-03-21T15:37:47.371114Z",
+      "last_modified": "2022-03-22T19:09:19.486335Z",
       "mimetype": null,
       "name": "Dissimilarity_matrices_for_contextualized_word_embeddings.ipynb",
       "path": "Dissimilarity_matrices_for_contextualized_word_embeddings.ipynb",
@@ -26,9 +26,9 @@
     },
     {
       "content": null,
-      "created": "2022-03-21T15:39:00.223493Z",
+      "created": "2022-03-22T19:10:29.757982Z",
       "format": null,
-      "last_modified": "2022-03-21T15:37:47.375114Z",
+      "last_modified": "2022-03-22T19:09:19.490335Z",
       "mimetype": null,
       "name": "derivativesofsigmoid.ipynb",
       "path": "derivativesofsigmoid.ipynb",
@@ -38,9 +38,9 @@
     },
     {
       "content": null,
-      "created": "2022-03-21T15:39:00.223493Z",
+      "created": "2022-03-22T19:10:29.757982Z",
       "format": null,
-      "last_modified": "2022-03-21T15:38:58.539482Z",
+      "last_modified": "2022-03-22T19:10:27.801882Z",
       "mimetype": "text/markdown",
       "name": "README.md",
       "path": "README.md",
@@ -49,9 +49,9 @@
       "writable": true
     }
   ],
-  "created": "2022-03-21T15:39:00.223493Z",
+  "created": "2022-03-22T19:10:29.757982Z",
   "format": "json",
-  "last_modified": "2022-03-21T15:39:00.223493Z",
+  "last_modified": "2022-03-22T19:10:29.757982Z",
   "mimetype": null,
   "name": "",
   "path": "",
