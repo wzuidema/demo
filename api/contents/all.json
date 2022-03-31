@@ -2,9 +2,21 @@
   "content": [
     {
       "content": null,
-      "created": "2022-03-22T19:10:29.757982Z",
+      "created": "2022-03-31T20:53:50.290572Z",
       "format": null,
-      "last_modified": "2022-03-22T19:09:19.494335Z",
+      "last_modified": "2022-03-31T20:52:41.377667Z",
+      "mimetype": null,
+      "name": "hippo_and_s4.ipynb",
+      "path": "hippo_and_s4.ipynb",
+      "size": 323976,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-03-31T20:53:50.286572Z",
+      "format": null,
+      "last_modified": "2022-03-31T20:52:41.373667Z",
       "mimetype": null,
       "name": "gradientdescent_dynsys.ipynb",
       "path": "gradientdescent_dynsys.ipynb",
@@ -14,9 +26,9 @@
     },
     {
       "content": null,
-      "created": "2022-03-22T19:10:29.753982Z",
+      "created": "2022-03-31T20:53:50.282572Z",
       "format": null,
-      "last_modified": "2022-03-22T19:09:19.486335Z",
+      "last_modified": "2022-03-31T20:52:41.365667Z",
       "mimetype": null,
       "name": "Dissimilarity_matrices_for_contextualized_word_embeddings.ipynb",
       "path": "Dissimilarity_matrices_for_contextualized_word_embeddings.ipynb",
@@ -26,9 +38,9 @@
     },
     {
       "content": null,
-      "created": "2022-03-22T19:10:29.757982Z",
+      "created": "2022-03-31T20:53:50.286572Z",
       "format": null,
-      "last_modified": "2022-03-22T19:09:19.490335Z",
+      "last_modified": "2022-03-31T20:52:41.369667Z",
       "mimetype": null,
       "name": "derivativesofsigmoid.ipynb",
       "path": "derivativesofsigmoid.ipynb",
@@ -38,9 +50,9 @@
     },
     {
       "content": null,
-      "created": "2022-03-22T19:10:29.757982Z",
+      "created": "2022-03-31T20:53:50.286572Z",
       "format": null,
-      "last_modified": "2022-03-22T19:10:27.801882Z",
+      "last_modified": "2022-03-31T20:53:48.766552Z",
       "mimetype": "text/markdown",
       "name": "README.md",
       "path": "README.md",
@@ -49,9 +61,9 @@
       "writable": true
     }
   ],
-  "created": "2022-03-22T19:10:29.757982Z",
+  "created": "2022-03-31T20:53:50.290572Z",
   "format": "json",
-  "last_modified": "2022-03-22T19:10:29.757982Z",
+  "last_modified": "2022-03-31T20:53:50.290572Z",
   "mimetype": null,
   "name": "",
   "path": "",
